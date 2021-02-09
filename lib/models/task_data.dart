@@ -7,4 +7,10 @@ class TaskData extends ChangeNotifier {
     Task(name: 'Buy Maggie'),
     Task(name: 'Buy Bread'),
   ];
+
+  void addTask(String newTaskTitle) {
+    final tasks = Task(name: newTaskTitle);
+    task.add(tasks);
+    notifyListeners();
+  }
 }
