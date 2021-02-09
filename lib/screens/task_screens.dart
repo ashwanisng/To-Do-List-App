@@ -24,13 +24,14 @@ class _TaskScreenState extends State<TaskScreen> {
           showModalBottomSheet(
             context: context,
             builder: (context) => AddTaskScreen(
-              (newTaskTitle) {
-                // task.add(
-                //   Task(name: newTaskTitle),
-                // );
-                print(newTaskTitle);
-              },
-            ),
+                // (newTaskTitle) {
+                //   setState(() {
+                //     task.add(
+                //       Task(name: newTaskTitle),
+                //     );
+                //   });
+                // },
+                ),
           );
         },
         elevation: 5.0,
