@@ -1,8 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:to_do_app/models/task.dart';
 import 'package:to_do_app/screens/add_task_screen.dart';
 import 'package:to_do_app/widgets/task_list.dart';
 
-class TaskScreen extends StatelessWidget {
+class TaskScreen extends StatefulWidget {
+  @override
+  _TaskScreenState createState() => _TaskScreenState();
+}
+
+class _TaskScreenState extends State<TaskScreen> {
+  List<Task> task = [
+    Task(name: 'Buy Milk'),
+    Task(name: 'Buy Maggie'),
+    Task(name: 'Buy Bread'),
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +22,16 @@ class TaskScreen extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           showModalBottomSheet(
-              context: context, builder: (context) => AddTaskScreen());
+            context: context,
+            builder: (context) => AddTaskScreen(
+              (newTaskTitle) {
+                // task.add(
+                //   Task(name: newTaskTitle),
+                // );
+                print(newTaskTitle);
+              },
+            ),
+          );
         },
         elevation: 5.0,
         backgroundColor: Colors.lightBlueAccent,
@@ -69,7 +90,7 @@ class TaskScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              child: TasksList(),
+              child: TasksList(task),
             ),
           ),
         ],
