@@ -1,16 +1,22 @@
-# to_do_app
+#  To Do List App 
 
-A new Flutter project.
+![Issues](https://img.shields.io/github/issues/ashwanisng/To-Do-List-App)
+![Pull Requests](https://img.shields.io/github/issues-pr/ashwanisng/To-Do-List-App?)
+![Forks](https://img.shields.io/github/forks/ashwanisng/To-Do-List-App)
+![Stars](https://img.shields.io/github/stars/ashwanisng/To-Do-List-App)
+![License](https://img.shields.io/github/license/ashwanisng/To-Do-List-App)
 
-## Getting Started
+[![Twitter Follow](https://img.shields.io/twitter/follow/ashwanisng.svg?style=social)](https://twitter.com/ashwanisng)
 
-This project is a starting point for a Flutter application.
+To Do is a task management app to help you stay organized and manage your day to day.
 
-A few resources to get you started if this is your first Flutter project:
+<p align="center"><img src="screenshot/logo.png" width=35%></p>
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<br> Please star⭐ the repo if you like what you see😉.
+
+## 💻 Requirements
+
+- Any Operating System (ie. MacOS X, Linux, Windows)
+- Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
+- A little knowledge of Dart and Flutter
