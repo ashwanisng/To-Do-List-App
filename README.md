@@ -10,7 +10,7 @@
 
 To Do is a task management app to help you stay organized and manage your day to day.
 
-<p align="center"><img src="screenshot/logo.png" width=35%></p>
+<p align="center"><img src="demo/todo.png" width=35%></p>
 
 
 <br> Please star⭐ the repo if you like what you see😉.
@@ -20,3 +20,8 @@ To Do is a task management app to help you stay organized and manage your day to
 - Any Operating System (ie. MacOS X, Linux, Windows)
 - Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
 - A little knowledge of Dart and Flutter
+
+
+## 📸 Demo
+
+<img src="demo/demo.gif" width="200" height="400">  
